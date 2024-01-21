@@ -108,3 +108,21 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+@media (max-width: 767px){
+    .search {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .details {
+        
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+
+    }
+    .search input{
+        margin-right: 0;
+    }
+}
